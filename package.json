@@ -1,0 +1,24 @@
+{
+  "name": "self-attribution-oc",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "bun -e 'import(\"./scripts/typecheck.ts\")'"
+  },
+  "dependencies": {
+    "@opencode/plugin": "^2.1.3"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.4",
+    "typescript": "^5.9.3"
+  }
+}

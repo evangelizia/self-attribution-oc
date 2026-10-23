@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2022"],
+    "strict": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "skipLibCheck": true,
+    "preserveSymlinks": true,
+    "baseUrl": ".",
+    "paths": {
+      "@opencode/plugin/promise/*": ["./node_modules/@opencode/plugin/dist/promise/*"]
+    },
+    "types": ["bun"]
+  },
+  "include": ["src", "tests", "scripts"]
+}
